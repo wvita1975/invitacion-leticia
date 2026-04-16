@@ -215,6 +215,34 @@ Asistentes: ${guests}
             <CapybaraMedium />
           </div>
 
+          {/* ⭐ NUEVO: Mensaje de bienvenida Capifiesta */}
+          <div
+            style={{
+              marginBottom: '2rem',
+              animation: 'float 3s ease-in-out infinite',
+            }}
+          >
+            <p
+              style={{
+                fontSize: 'clamp(1.5rem, 4vw, 2rem)',
+                fontWeight: 700,
+                color: '#6bcb77',
+                textShadow: '2px 2px 0 rgba(255,255,255,0.6)',
+                margin: 0,
+                fontFamily: "'Nunito', sans-serif",
+                letterSpacing: '1px',
+              }}
+            >
+              te invito a mi <span style={{ 
+                background: 'linear-gradient(135deg, #ff6b9d, #ffd93d)',
+                WebkitBackgroundClip: 'text',
+                WebkitTextFillColor: 'transparent',
+                backgroundClip: 'text',
+                fontWeight: 900,
+              }}>Capifiesta</span> 🎉
+            </p>
+          </div>
+
           {/* Main capybara */}
           <div className="bounce-in" style={{ marginBottom: '2rem', display: 'flex', justifyContent: 'center' }}>
             <CapybaraLarge />
@@ -249,10 +277,13 @@ Asistentes: ${guests}
             <p style={{ fontSize: 'clamp(1.3rem, 4vw, 1.8rem)', marginBottom: '1.2rem', fontWeight: 700, color: '#ff6b9d' }}>
               📅 Sábado 18 de Abril, 2026
             </p>
-            <p style={{ fontSize: 'clamp(1.1rem, 3vw, 1.5rem)', marginBottom: '1.2rem', fontWeight: 600, color: '#4d96ff' }}>
-              🕒 5:30 PM
+            <p style={{ fontSize: 'clamp(1.1rem, 3vw, 1.5rem)', marginBottom: '0.5rem', fontWeight: 600, color: '#4d96ff' }}>
+              🕒 Hora de inicio:       5:30 PM
             </p>
-            <p style={{ fontSize: 'clamp(1.1rem, 3vw, 1.5rem)', fontWeight: 600, color: '#6bcb77' }}>
+            <p style={{ fontSize: 'clamp(1.1rem, 3vw, 1.5rem)', marginBottom: '1.2rem', fontWeight: 600, color: '#4d96ff' }}>
+              🕒 Hora de finalización: 8:30 PM
+            </p>
+            <p style={{ fontSize: 'clamp(1.1rem, 3vw, 1.7rem)', fontWeight: 600, color: '#6bcb77' }}>
               📍 "Nube Park - C.C. Puente Real"
             </p>
           </div>
@@ -281,7 +312,7 @@ Asistentes: ${guests}
               }}
               className="bounce-in"
             >
-              ¡Confirmado! Nos vemos pronto 🥳
+              ¡Confirmado! Nos vemos el sábado en Nube Park 🥳
             </div>
           )}
 
@@ -385,8 +416,34 @@ Asistentes: ${guests}
                 }}
               >
                 <option value="Yo">Solo yo 🙋</option>
-                <option value="Yo + 1">Yo + Mi Representante 👥</option>
+                <option value="Yo + 1">Yo + 1 acompañante 👥</option>
+                <option value="Yo + 2">Yo + 2 acompañantes 👨‍👩‍👦</option>
+                <option value="Yo + 3">Yo + 3 acompañantes 👨‍👩‍👧‍👦</option>
               </select>
+            </div>
+
+            {/* ⭐ NUEVO: Nota sobre la invitación */}
+            <div
+              style={{
+                background: 'linear-gradient(135deg, #fff9e6, #ffeef8)',
+                borderRadius: '15px',
+                padding: '1rem',
+                marginBottom: '2rem',
+                border: '2px solid #ffd93d',
+              }}
+            >
+              <p
+                style={{
+                  fontSize: '0.95rem',
+                  fontWeight: 600,
+                  color: '#ff6b9d',
+                  margin: 0,
+                  textAlign: 'center',
+                  lineHeight: '1.5',
+                }}
+              >
+                ℹ️ Esta invitación incluye <strong>1 brazalete</strong> para el disfrute de <strong>1 niño</strong> + snack + Menú
+              </p>
             </div>
 
             <div style={{ display: 'flex', gap: '1rem', justifyContent: 'center' }}>
