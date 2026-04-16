@@ -233,12 +233,12 @@ Asistentes: ${guests}
                 letterSpacing: '1px',
               }}
             >
-              te invito a mi <span style={{ 
+              🎉Te invito a mi <span style={{ 
                 background: 'linear-gradient(135deg, #ff6b9d, #ffd93d)',
                 WebkitBackgroundClip: 'text',
                 WebkitTextFillColor: 'transparent',
                 backgroundClip: 'text',
-                fontWeight: 900,
+                fontWeight: 1000,
               }}>Capifiesta</span> 🎉
             </p>
           </div>
@@ -284,7 +284,7 @@ Asistentes: ${guests}
               🕒 Hora de finalización: 8:30 PM
             </p>
             <p style={{ fontSize: 'clamp(1.1rem, 3vw, 1.7rem)', fontWeight: 600, color: '#6bcb77' }}>
-              📍 "Nube Park - C.C. Puente Real"
+              📍 Lugar: "Nube Park - C.C. Puente Real"
             </p>
           </div>
 
@@ -415,10 +415,7 @@ Asistentes: ${guests}
                   background: 'white',
                 }}
               >
-                <option value="Yo">Solo yo 🙋</option>
-                <option value="Yo + 1">Yo + 1 acompañante 👥</option>
-                <option value="Yo + 2">Yo + 2 acompañantes 👨‍👩‍👦</option>
-                <option value="Yo + 3">Yo + 3 acompañantes 👨‍👩‍👧‍👦</option>
+                <option value="Yo">Confirmado 🙋</option>
               </select>
             </div>
 
@@ -434,7 +431,7 @@ Asistentes: ${guests}
             >
               <p
                 style={{
-                  fontSize: '0.95rem',
+                  fontSize: '1.1rem',
                   fontWeight: 600,
                   color: '#ff6b9d',
                   margin: 0,
