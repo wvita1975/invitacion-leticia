@@ -198,7 +198,7 @@ Asistentes: ${guests}
         {musicPlaying ? '🎵' : '🔇'}
       </button>
       <audio id="bg-music" loop>
-        <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg" />
+        <source src="/capybara_song.mp3" type="audio/mpeg" />
       </audio>
 
       {/* Main content */}
@@ -250,10 +250,10 @@ Asistentes: ${guests}
               📅 Sábado 18 de Abril, 2026
             </p>
             <p style={{ fontSize: 'clamp(1.1rem, 3vw, 1.5rem)', marginBottom: '1.2rem', fontWeight: 600, color: '#4d96ff' }}>
-              🕒 5:00 PM
+              🕒 5:30 PM
             </p>
             <p style={{ fontSize: 'clamp(1.1rem, 3vw, 1.5rem)', fontWeight: 600, color: '#6bcb77' }}>
-              📍 Casa de Leticia
+              📍 "Nube Park - C.C. Puente Real"
             </p>
           </div>
 
@@ -367,7 +367,7 @@ Asistentes: ${guests}
                   color: '#333',
                 }}
               >
-                ¿Cuántos vienen?
+                ¿Confirmas tu asistencia?
               </label>
               <select
                 value={guests}
@@ -385,9 +385,7 @@ Asistentes: ${guests}
                 }}
               >
                 <option value="Yo">Solo yo 🙋</option>
-                <option value="Yo + 1">Yo + 1 acompañante 👥</option>
-                <option value="Yo + 2">Yo + 2 acompañantes 👨‍👩‍👦</option>
-                <option value="Yo + 3">Yo + 3 acompañantes 👨‍👩‍👧‍👦</option>
+                <option value="Yo + 1">Yo + Mi Representante 👥</option>
               </select>
             </div>
 
